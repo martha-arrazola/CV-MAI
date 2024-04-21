@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    font-size: 14px;
 
 }
    
@@ -34,13 +35,7 @@ body{
 
 }
 
-.container .right{
-    position: relative;
-    background: #fff
-    padding: 40px;
-    padding: 40px;
 
-}
 .profileText{
     position: relative;
     display: flex;
@@ -161,4 +156,103 @@ body{
     height: 100%;
     background: #06f6d7;
 
+}
+
+.container .right{
+    position: relative;
+    background: #fff
+    padding: 40px;
+    padding: 40px;
+
+}
+
+.about{
+    margin-bottom: 50px;
+
+}
+
+.about:last-child{
+    margin-bottom: 0px;
+
+}
+.title2{
+    color: #167266;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+p{
+    color:#333;
+    font-size: 1rem;
+    text-justify:auto;
+}
+
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+
+}
+.about .box .year_company{
+    min-width: 150px;
+}
+
+.about .box .year_company h5{
+    text-transform: uppercase;
+    color: #5d977c;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding-right: 30px;
+}
+
+.about .box .text h4{
+    text-transform: uppercase;
+    color:#59b3a7;
+    font-size: 14px;
+
+}
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skills .box h4{
+    text-transform: uppercase;
+    color: #6c6f70;
+    font-weight:500
+
+}
+.skills .box .precent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+    
+}
+
+.skills .box .precent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #06f6d7;
+
+}
+.interest ul{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.interest ul li{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 12px 0;
 }
